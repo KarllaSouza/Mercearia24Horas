@@ -8,7 +8,7 @@ A mercearia possui:
   * Vendedor noturno
   * Segurança e outros funionários
   
-(Estes são extensões de uma classe de PESSOA)
+(Estes são extensões da classe PESSOA)
 
 E também possui:
 
