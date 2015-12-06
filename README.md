@@ -1,6 +1,6 @@
 # MerceariaJK
 Projeto de Programação Orientada a Objetos (PROO).
-Este é um trabalho em dupla, onde junto ao João estaremos montando o sistema desta mercearia.
+Este é um trabalho em dupla, onde junto ao João estaremos montando o sistema de uma mercearia.
 
 A mercearia possui:
   * Gerente
