@@ -29,7 +29,6 @@ public class Gerente extends Funcionario{
 		System.out.print("Turno do novo funcionário: ");
 		turno = in.nextLine();
 		
-		
 		System.out.println("\n\nContratação realizada com sucesso!\n");
 		System.out.print("Nome: "+func.nome+"      ");
 		System.out.print("Idade: "+func.idade+"      ");
