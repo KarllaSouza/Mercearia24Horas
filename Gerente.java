@@ -18,16 +18,16 @@ public class Gerente extends Funcionario{
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		func.dataQueFoiContratado = sdf.format(data);
 		
+		System.out.print("Turno do novo funcionário: ");
+		turno = in.nextLine();
 		System.out.print("Nome do novo funcionário: ");
-		nome = in.nextLine();
-		System.out.print("Idade do novo funcionário: ");
-		idade = in.nextInt();
+		nome = in.nextLine();		
 		System.out.print("CPF do novo funcionário: ");
 		cpf = in.nextLine();
 		System.out.print("RG do novo funcionário: ");
 		rg = in.nextLine();
-		System.out.print("Turno do novo funcionário: ");
-		turno = in.nextLine();
+		System.out.print("Idade do novo funcionário: ");
+		idade = in.nextInt();
 		
 		System.out.println("\n\nContratação realizada com sucesso!\n");
 		System.out.print("Nome: "+func.nome+"      ");
