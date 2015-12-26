@@ -4,22 +4,20 @@ Este é um trabalho em dupla, onde junto ao João estaremos montando o sistema d
 
 A mercearia possui:
   * Gerente
-  * Vendedor diurno
-  * Vendedor noturno
-  * Segurança e outros funionários
-  
-(Estes são extensões da classe PESSOA)
+  * Vendedor
+  * Segurança e outros funcionários
+ 
+(Estes são extensões da classe FUNCIONÁRIO)
 
 E também possui:
 
   * Estoque
-  
+ 
 Onde ficam armazenados os:
   * Produtos
-  
+ 
 Além de contar com a classe que
   * Gerencia o Sistema
-  
 
 Aqui, o GERENTE pode:
 * Cadastrar produtos
@@ -30,4 +28,3 @@ E o VENDEDOR pode:
 * Retirar produtos do estoque
 * Emitir nota fiscal
   
-
