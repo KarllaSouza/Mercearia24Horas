@@ -19,7 +19,6 @@ public class GerenciaSistema {
 			default:
 				System.out.println("Opção Inválida!");
 		}
-		
 	}
 	private static void opcaoVendedor(){
 		//Alterar estoque (retirar produtos)
@@ -29,11 +28,12 @@ public class GerenciaSistema {
 	protected static void opcaoSegurancaOuOutroFuncionario(){
 		//funcionários noturnos recebem MAIS
 	}
-	
+
 	public static void main(String[] args) {
 		System.out.println("*          * *    Mercearia 24 Horas     * *         *");
 		System.out.println("Você é:\n  1. Gerente\n  2. Vendedor\n  3. Segurança/Outro Funcionário\n");
 		int func = in.nextInt();
+		
 		switch (func){
 			case 1:
 				opcaoGerente();
