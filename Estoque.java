@@ -5,5 +5,4 @@ public class Estoque {
 	void retirarProduto(){
 		//aqui os produtos serão retirados
 	}
-	
 }
