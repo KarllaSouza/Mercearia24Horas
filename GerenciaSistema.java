@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class GerenciaSistema {
 	static Scanner in = new Scanner(System.in);
 	
-	private static void opcaoGerente(){
+	public static void opcaoGerente(){
 		System.out.println("Deseja realizar qual operação?\n  1. Cadastrar novo funcionário\n  2. Cadastrar novo produto\n  3. Alterar Estoque (adicionar ou remover itens)");
 		int operacao = in.nextInt();
 		switch (operacao){
@@ -20,12 +20,12 @@ public class GerenciaSistema {
 				System.out.println("Opção Inválida!");
 		}
 	}
-	private static void opcaoVendedor(){
+	public static void opcaoVendedor(){
 		//Alterar estoque (retirar produtos)
 		//Emitir nota fiscal
 		//Vendedor noturno recebe MAIS
 	}
-	protected static void opcaoSegurancaOuOutroFuncionario(){
+	public static void opcaoSegurancaOuOutroFuncionario(){
 		//funcionários noturnos recebem MAIS
 	}
 
