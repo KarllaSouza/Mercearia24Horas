@@ -5,15 +5,15 @@ import java.text.SimpleDateFormat;
 import java.text.ParseException;
 
 public class Funcionario {
-	protected static String nome;
-	protected static int idade;
-	protected static Date dataNascimento;
-	protected static String dataQueFoiContratado;
-	protected static String cpf;
-	protected static String rg;
-	protected static String turno; //diurno ou noturno
-	protected static float salario;
-	protected static boolean isGerente = false;
+	static String nome;
+	static int idade;
+	static Date dataNascimento;
+	static String dataQueFoiContratado;
+	static String cpf;
+	static String rg;
+	static String turno; //diurno ou noturno
+	static float salario;
+	static boolean isGerente = false;
 	Funcionario(String nome, int idade, String cpf, String rg, String turno, float salario){
 		Funcionario.nome=nome;
 		Funcionario.idade=idade;
