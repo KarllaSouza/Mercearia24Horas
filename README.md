@@ -4,3 +4,4 @@ Este é um trabalho em dupla, onde junto a Karlla estaremos montando o sistema d
 
 
 https://github.com/KarllaSouza/Mercearia24Horas
+https://github.com/pradinesjpr/Mercearia24Horas
