@@ -39,27 +39,13 @@ public class GerenciaDoSistema {
 				Funcionario.menuDoFuncionario(conexao);
 			}
 		}
-		
-		/*System.out.println("Bem vindo a Mercearia 24 Horas.");
-		System.out.println("Qual seu tipo de acesso?");
-		System.out.println("1 - Gerente");
-		System.out.println("2 - Vendedor");
-		System.out.println("9 - Sair");
-		opcao = in.nextInt();
-		switch(opcao){
-			case 1:
-				Gerente.menuDoGerente();
-				break;
-		}*/
 	}
-	
 	public static void main(String[] args) throws SQLException {
 		ConexaoMySQL conectar = new ConexaoMySQL();
 		conectar.getConexao("jdbc:mysql", "localhost", "market", "root", "");
 		conexao = ConexaoMySQL.conexao;
 		telaBoasVindas();
 	}
-	
 	public static String getSenha(String usuario) throws SQLException {
 		ResultSet rs;
 		String resultado;
