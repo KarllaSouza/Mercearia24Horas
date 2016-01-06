@@ -2,29 +2,4 @@
 Projeto de Programação Orientada a Objetos (PROO).
 Este é um trabalho em dupla, onde junto ao João estaremos montando o sistema de uma mercearia.
 
-A mercearia possui:
-  * Gerente
-  * Vendedor
-  * Segurança e outros funcionários
- 
-(Estes são extensões da classe FUNCIONÁRIO)
-
-E também possui:
-
-  * Estoque
- 
-Onde ficam armazenados os:
-  * Produtos
- 
-Além de contar com a classe que
-  * Gerencia o Sistema
-
-Aqui, o GERENTE pode:
-* Cadastrar produtos
-* Cadastrar funcionários
-* Alterar o estoque
-
-E o VENDEDOR pode:
-* Retirar produtos do estoque
-* Emitir nota fiscal
-  
+(Devido a alguns imprevistos, o projeto anterior foi modificado)
