@@ -1,16 +1,15 @@
-import java.util.Scanner;
+package BO;
 
-public class Produto extends Estoque{
-	static Scanner in = new Scanner(System.in);
-	private static String nome;
-	private static int codigoDoProduto;
-	private static int quantidade;
-	private static double preco;
+public class Produtos {
+	public int id;
+	public String nome;
+	public double valor;
+	public int estoque;
 	
-	public Produto(String nome, int codigoDoProduto, int quantidade, double preco) {
-		Produto.nome = nome;
-		Produto.codigoDoProduto = codigoDoProduto;
-		Produto.quantidade = quantidade;
-		Produto.preco = preco;
+	public Produtos(String nome, double valor, int estoque, int id) {
+		this.nome = nome;
+		this.valor = valor;
+		this.estoque = estoque;
+		this.id = id;
 	}
 }
